@@ -61,7 +61,7 @@ void loop() {
       lcd.print("TIE.. :(");
     }
     
-    while (digitalRead(playerOnePin) == HIGH && digitalRead(playerTwoPin) == HIGH) {
+    while (digitalRead(playerOnePin) != LOW && digitalRead(playerTwoPin) != LOW) {
       // wait for both buttons to be pressed to restart
     }
     
