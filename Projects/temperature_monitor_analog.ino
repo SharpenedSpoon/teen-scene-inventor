@@ -18,8 +18,6 @@ Hardware:
 int sensorPin = A0;
 int ledPins[] = {3, 5, 6, 9, 10, 11};
 
-float
-
 void setup() {
 	for (int i = 0; i < 6; i++) {
 		int currentLedPin = ledPins[i]; // sets currentLedPin to be the i'th number in the ledPins array
